@@ -7,16 +7,16 @@ const Diet = () => {
     <div className="flex jusify-center items-center">
       <BackButton />
       <div className="flex-col flex gap-8">
-        <Link href="/" className="">
+        <Link href="/monday" className="">
           PONIEDZIAŁEK - WTOREK
         </Link>
-        <Link href="/" className="">
+        <Link href="/wednesday" className="">
           ŚRODA - CZWARTEK
         </Link>
-        <Link href="/" className="">
+        <Link href="/friday" className="">
           PIĄTEK - SOBOTA
         </Link>
-        <Link href="/" className="">
+        <Link href="/sunday" className="">
           NIEDZIELA
         </Link>
       </div>
