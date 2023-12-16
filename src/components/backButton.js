@@ -3,7 +3,7 @@ import React from 'react';
 
 const BackButton = () => {
   return (
-    <Link href={'/'} className="fixed top-3 right-3">
+    <Link href={'/'} className="fixed right-3 bottom-3">
       Wróć
     </Link>
   );

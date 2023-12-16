@@ -6,7 +6,7 @@ const AppButton = ({ title, icon, link }) => {
     <div>
       <Link
         href={link}
-        className="border-2 h-32 w-32 border-gray-400 rounded-lg border-solid flex justify-center items-center"
+        className="border-2 h-44 w-44 border-gray-400 rounded-lg border-solid flex justify-center items-center"
       >
         {title}
       </Link>
